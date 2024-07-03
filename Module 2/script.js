@@ -1,4 +1,4 @@
-const books = {
+var books = {
     fiction:[
         {
             name: "fiction1",
@@ -35,10 +35,10 @@ const books = {
     ]
 };
 
-// Retrieve members from localStorage or initialize empty array
+
 let members = JSON.parse(localStorage.getItem('members')) || [];
 
-// If members are not stored in localStorage, initialize with default members
+
 if (members.length === 0) {
     members = [
         { name: "aaa", id: "100" },
