@@ -1,0 +1,34 @@
+.bookDiv {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.bookName {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.avail {
+    color: green;
+    margin-bottom: 3px;
+}
+
+.unavail {
+    color: red;
+    margin-bottom: 3px;
+}
+
+.borrowBtn, .returnBtn {
+    margin-top: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.borrowBtn:hover, .returnBtn:hover {
+    background-color: #0056b3;
+}
